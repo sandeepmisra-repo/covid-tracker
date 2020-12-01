@@ -7,6 +7,7 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <marquee direction="right" behavior="alternate" style={{textAlign: "center"}}>© 2020 All Rights Reserved | Terms and Conditions</marquee>
   </React.StrictMode>,
   document.getElementById('root')
 );
